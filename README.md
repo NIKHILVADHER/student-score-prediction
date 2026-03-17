@@ -13,79 +13,78 @@ Dataset Name: Student Exam Performance Dataset
 
 Features used in the dataset:
 
-Hours_Studied
+-Hours_Studied
 
-Attendance
+-Attendance
 
-Parental_Involvement
+-Parental_Involvement
 
-Access_to_Resources
+-Access_to_Resources
 
-Sleep_Hours
+-Sleep_Hours
 
-Previous_Scores
+-Previous_Scores
 
-Motivation_Level
+-Motivation_Level
 
-Internet_Access
+-Internet_Access
 
-Tutoring_Sessions
+-Tutoring_Sessions
 
-Family_Income
+-Family_Income
 
-Teacher_Quality
+-Teacher_Quality
 
-School_Type
+-School_Type
 
-Peer_Influence
+-Peer_Influence
 
-Physical_Activity
+-Physical_Activity
 
-Learning_Disabilities
+-Learning_Disabilities
 
-Parental_Education_Level
+-Parental_Education_Level
 
-Distance_from_Home
+-Distance_from_Home
 
-Gender
+-Gender
 
 Target Variable:
 
-Exam_Score
+-Exam_Score
 
-Data Preprocessing
+-Data Preprocessing
 
 Before building the model, the dataset was cleaned and prepared:
 
-Missing values were handled using the mode for categorical features
+-Missing values were handled using the mode for categorical features
 
-Categorical data was converted into numerical form using one-hot encoding (pd.get_dummies)
+-Categorical data was converted into numerical form using one-hot encoding (pd.get_dummies)
 
-The dataset structure, shape, and data types were checked to ensure everything was ready for modeling
+-The dataset structure, shape, and data types were checked to ensure everything was ready for modeling
 
-Exploratory Data Analysis
+-Exploratory Data Analysis
 
-Basic data analysis was performed using Matplotlib and Seaborn. The following visualizations were created:
+-Basic data analysis was performed using Matplotlib and Seaborn. The following visualizations were created:
 
-Scatter plots
+-Scatter plots
 
-Histograms
+-Histograms
 
-Correlation heatmap
+-Correlation heatmap
 
 From the analysis, it was clear that Hours_Studied has the strongest positive relationship with exam scores.
 
 Machine Learning Models
-
 Two models were used to predict exam scores:
 
-Linear Regression
+-Linear Regression
 
 R² Score: 0.77
 
 MAE: 0.45
 
-Random Forest Regressor
+-Random Forest Regressor
 
 R² Score: 0.65
 
@@ -97,19 +96,14 @@ Linear Regression performed better than Random Forest in this case.
 
 This suggests that the relationship between the input features and exam score is mostly linear, which makes Linear Regression a better choice for this dataset.
 
-Technologies Used
+Technologies Used:-
 
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
+-Python
+-Pandas
+-NumPy
+-Matplotlib
+-Seaborn
+-Scikit-learn
 
 
 Conclusion
